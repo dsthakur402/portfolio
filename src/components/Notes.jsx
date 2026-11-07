@@ -54,7 +54,7 @@ export default function Notes() {
                     {post.title} <em>{post.italic}</em>
                   </strong>
                   <small>
-                    {post.tag} · {post.status} · {post.minutes} min
+                    {post.tag} · {post.date}
                   </small>
                 </span>
                 <span className="go">Read</span>
@@ -105,7 +105,7 @@ export function Article({ post }) {
           All notes
         </a>
         <p className="eyebrow">
-          {post.index} · {post.tag} · {post.date} · {post.minutes} min
+          {post.index} · {post.tag} · {post.date} · {post.minutes} min read
         </p>
         <h1>
           {post.title}
