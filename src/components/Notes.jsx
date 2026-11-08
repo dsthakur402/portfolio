@@ -63,7 +63,7 @@ export default function Notes() {
           ))}
         </ol>
         <p className="colophon">
-          Five notes from work at Brightchamps. A stage measurement stays a stage measurement. A planned test stays a plan.
+          Five notes from contract work. A stage measurement stays a stage measurement. A planned test stays a plan.
         </p>
       </div>
     </section>

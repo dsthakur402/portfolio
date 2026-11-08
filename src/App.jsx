@@ -85,7 +85,7 @@ export default function App() {
         <section className="contact" id="contact">
           <p className="eyebrow">Contact</p>
           <h2>Send the role.</h2>
-          <p className="dek">Lead DevOps at Brightchamps. DevSecOps, the platform, or the voice path.</p>
+          <p className="dek">Independent DevOps contractor. DevSecOps, the platform, or the voice path.</p>
           <a className="big" href={`mailto:${profile.email}`}>
             {profile.email}
           </a>

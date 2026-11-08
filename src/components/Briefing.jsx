@@ -363,7 +363,7 @@ function Gate() {
   return (
     <div className="panel">
       <p className="lede">
-        Same shape as the Brightchamps pipelines: Jenkins, SonarQube, a secret scan, Trivy, Cosign, ArgoCD. This run stays in the page. Nothing is deployed.
+        Same shape as the pipelines he runs on contract: Jenkins, SonarQube, a secret scan, Trivy, Cosign, ArgoCD. This run stays in the page. Nothing is deployed.
       </p>
       <div className="gate-actions">
         <button type="button" className="solid" disabled={busy} onClick={() => run("clean")}>

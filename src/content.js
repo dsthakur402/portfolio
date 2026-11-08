@@ -102,9 +102,9 @@ export const also = [
 export const jobs = [
   {
     role: "Lead DevOps Engineer",
-    org: "Brightchamps",
+    org: "Independent contractor",
     when: "Dec 2025 – Present",
-    note: "Owns the DevOps roadmap and reports to the CTO.",
+    note: "Contract lead for cloud, delivery, security, and the voice edge.",
     points: [
       "Ran a zero-downtime production move into a new AWS Organization. Rebuilt the estate in Terraform and checked compute, storage, DNS, and IAM for live parity before cutover. Bedrock permissions live in Terraform.",
       "Moved Jenkins off one EC2 host in Mumbai onto EKS in Singapore. Built a private EKS cluster, control plane and nodes in private subnets, with Karpenter and a locked-down VPC.",
@@ -119,7 +119,7 @@ export const jobs = [
     role: "DevOps Engineer",
     org: "Infra360",
     when: "Feb 2025 – Nov 2025",
-    note: "External consultant. Clients included Brightchamps and Ionic.",
+    note: "Independent consultant.",
     points: [
       "Ran day-to-day DevOps for 30+ production microservices on Amazon EKS.",
       "Frontend path: Cloudflare to CDN to S3, with a 95%+ cache hit. Backend path: Cloudflare to an Application Load Balancer to EKS to RDS.",
@@ -327,10 +327,10 @@ export const topics = [
   },
   {
     id: "experience",
-    keys: ["experience", "resume", "career", "brightchamps", "infra360", "years", "yoe", "background", "who are you", "about you", "about yourself"],
-    follow: ["What do you own at Brightchamps?", "What came before that?"],
+    keys: ["experience", "resume", "career", "contractor", "independent", "infra360", "years", "yoe", "background", "who are you", "about you", "about yourself"],
+    follow: ["What do you own on contract?", "What came before that?"],
     answer:
-      "Divyanshu Singh is a lead DevOps engineer in India, about three years in. Since December 2025 he has owned cloud, delivery, security, and the voice edge at Brightchamps, reporting to the CTO. Before that he was a consultant at Infra360 (Brightchamps and Ionic), and a DevOps engineer at The Concept Designing from 2023.",
+      "Divyanshu Singh is an independent DevOps contractor in India, about three years in. Since December 2025 he has owned cloud, delivery, security, and the voice edge on contract. Before that he consulted through Infra360, and he was a DevOps engineer at The Concept Designing from 2023.",
     more:
       "At Infra360 he ran 30+ production services on EKS, moved RDS MySQL to PostgreSQL with DMS, and turned on GuardDuty, Security Hub, and AWS Config. The earlier role was EC2, VPC, RDS, and the first EKS and Terraform work: service accounts, autoscaling, crash loops, and out-of-memory kills.",
   },

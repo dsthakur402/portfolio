@@ -129,7 +129,7 @@ export function analyze(jd) {
   const years = folded.match(/(\d+)\s*\+?\s*years/);
   const yearsNote =
     years && Number(years[1]) >= 6
-      ? `The posting asks for ${years[1]}+ years. He has a little over 3, and he already owns lead scope: the account migration, EKS, and the security gates, reporting to the CTO.`
+      ? `The posting asks for ${years[1]}+ years. He has a little over 3, and he already owns lead scope on contract: the account migration, EKS, and the security gates.`
       : "";
 
   const group = hits.length ? dominantGroup(hits) : "platform";
